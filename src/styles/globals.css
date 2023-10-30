@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes animateWidth {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  .animated-div {
+    animation: animateWidth 2s linear; /* Adjust the duration as needed */
+  }
